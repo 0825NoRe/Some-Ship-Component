@@ -1,0 +1,5 @@
+component_set = {
+    key = "SSC_HASTE_SHIELD_SETS"
+    icon = "GFX_ship_part_shield_2"
+    icon_frame = 1
+}

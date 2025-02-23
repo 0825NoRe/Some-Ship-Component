@@ -1,0 +1,185 @@
+weapon_component_template = {
+    key = "SSC_ETHER_MISSILE_S"
+    component_set = "SSC_ETHER_MISSILE_SETS"
+    icon = GFX_ship_part_swarmer_missile_1
+    icon_frame = 1
+
+    prerequisites = { "SSC_ETHER_MISSILE_TECH" }
+
+    type = missile
+    size = SMALL
+    power = -20
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 16
+            energy = 16
+            astral_threads = 0.16
+        }
+        upkeep = {
+            energy = 0.06
+        }
+    }
+
+    damage = { min = 16 max = 66 }
+    windup = { min = 0 max = 0 }
+    total_fire_time = 66
+    range = 66
+    min_range = 16
+
+    missile_speed = 66
+    missile_evasion = 0.90 #闪避
+    missile_health = 16
+    missile_retarget_range = 66 #重定向
+
+    accuracy = 0.96 #命中
+    tracking = 0.36 #追踪
+
+    hull_damage = 3.0
+    # armor_penetration = 0.75
+    armor_damage = 3.0
+    shield_penetration = 1.35
+    # shield_damage = 1.0
+    # size_damage_factor = 0
+
+    projectile_gfx = example_missile
+
+    tags = {
+        s_slot
+        weapon_type_energy
+        weapon_type_explosive
+        weapon_role_artillery
+    }
+    ai_tags = {
+        weapon_role_artillery
+        artillery
+    }
+    ai_weight = {
+        weight = 0
+    }
+}
+
+weapon_component_template = {
+    key = "SSC_ETHER_MISSILE_M"
+    component_set = "SSC_ETHER_MISSILE_SETS"
+    icon = GFX_ship_part_swarmer_missile_1
+    icon_frame = 1
+
+    prerequisites = { "SSC_ETHER_MISSILE_TECH" }
+
+    size = MEDIUM
+    type = missile
+    power = -40
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 36
+            energy = 36
+            astral_threads = 0.36
+        }
+        upkeep = {
+            energy = 0.6
+        }
+    }
+
+    damage = { min = 36 max = 66 }
+    windup = { min = 0 max = 0 }
+    total_fire_time = 66
+    range = 96
+    min_range = 16
+
+    missile_speed = 66
+    missile_evasion = 0.90 #闪避
+    missile_health = 64
+    missile_retarget_range = 96 #重定向
+
+    accuracy = 0.96 #命中
+    tracking = 0.36 #追踪
+
+    hull_damage = 3.0
+    # armor_penetration = 0.75
+    armor_damage = 3.0
+    shield_penetration = 1.35
+    # shield_damage = 1.0
+    size_damage_factor = 0.1
+
+    projectile_gfx = example_missile
+
+    tags = {
+        m_slot
+        weapon_type_energy
+        weapon_type_explosive
+        weapon_role_artillery
+    }
+    ai_tags = {
+        weapon_role_artillery
+        artillery
+    }
+    ai_weight = {
+        weight = 0
+    }
+}
+
+weapon_component_template = {
+    key = "SSC_ETHER_MISSILE_L"
+    component_set = "SSC_ETHER_MISSILE_SETS"
+    icon = GFX_ship_part_swarmer_missile_1
+    icon_frame = 1
+
+    prerequisites = { "SSC_ETHER_MISSILE_TECH" }
+
+    type = missile
+    size = LARGE
+    power = -60
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 66
+            energy = 66
+            astral_threads = 0.66
+        }
+        upkeep = {
+            energy = 1.6
+        }
+    }
+
+    damage = { min = 66 max = 66 }
+    windup = { min = 0 max = 0 }
+    total_fire_time = 66
+    range = 136
+    min_range = 16
+
+    missile_speed = 66
+    missile_evasion = 0.90 #闪避
+    missile_health = 256
+    missile_retarget_range = 136 #重定向
+
+    accuracy = 0.96 #命中
+    tracking = 0.36 #追踪
+
+    hull_damage = 3.0
+    # armor_penetration = 0.75
+    armor_damage = 3.0
+    shield_penetration = 1.35
+    # shield_damage = 1.0
+    size_damage_factor = 0.2
+
+    projectile_gfx = example_missile
+
+    tags = {
+        l_slot
+        weapon_type_energy
+        weapon_type_explosive
+        weapon_role_artillery
+    }
+    ai_tags = {
+        weapon_role_artillery
+        artillery
+    }
+    ai_weight = {
+        weight = 0
+    }
+}

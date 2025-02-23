@@ -1,0 +1,5 @@
+component_set = {                   # 通用开头，不要更改
+    key = "SSC_DIMENSION_RIFT_LAUNCHER_SETS"          # 组件集的 ID
+    icon = "GFX_ship_part_arc_emitter_2"  # 图标
+    icon_frame = 1
+}

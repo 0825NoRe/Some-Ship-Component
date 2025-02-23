@@ -1,0 +1,5 @@
+component_set = {
+    key = SSC_DIMENSION_WARP_ARMOR_SETS
+    icon = "GFX_ship_part_armor_5"
+    icon_frame = 1
+}

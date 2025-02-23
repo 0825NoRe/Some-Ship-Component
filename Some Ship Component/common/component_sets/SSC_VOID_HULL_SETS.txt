@@ -1,0 +1,5 @@
+component_set = {
+    key = "SSC_VOID_HULL_SETS"
+    icon = "GFX_ship_part_crystal_armor_2"
+    icon_frame = 1
+}

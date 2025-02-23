@@ -1,0 +1,27 @@
+utility_component_template = {
+    key = "SSC_SELF_DAMAGE_DISABLER"
+    component_set = "SSC_SELF_DAMAGE_DISABLER_SETS"
+    icon = "GFX_ship_part_reactor_booster_1"
+    icon_frame = 1
+
+    prerequisites = { "SSC_SELF_DAMAGE_DISABLER_TECH" }
+
+    size = aux
+    power = -20
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 6
+        }
+    }
+
+    modifier = {
+        ship_weapon_damage = -32767
+        ship_weapon_range_mult = -32767
+        ship_fire_rate_mult = -32767
+    }
+
+    ai_weight = {
+        weight = 0
+    }
+}

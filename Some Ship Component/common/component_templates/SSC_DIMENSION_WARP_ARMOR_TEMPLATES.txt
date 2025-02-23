@@ -1,16 +1,15 @@
 utility_component_template = {
     key = "SSC_DIMENSION_WARP_ARMOR_S"
-    size = small
-    icon = "GFX_ship_part_dragon_armor"
+    component_set = "SSC_DIMENSION_WARP_ARMOR_SETS"
+    icon = "GFX_ship_part_armor_5"
     icon_frame = 1
-    power = 16
+    prerequisites = { "SSC_DIMENSION_WARP_ARMOR_TECH" }
+    size = small
+    power = -16
     modifier = {
-        ship_armor_add = 800
+        ship_armor_add = 380
         ship_armor_hardening_add = 0.07
     }
-
-    prerequisites = { "SSC_DIMENSION_WARP_ARMOR_TECH" }
-    component_set = "SSC_DIMENSION_WARP_ARMOR_COMP"
     resources = {
         category = ship_components
         cost = {
@@ -21,25 +20,23 @@ utility_component_template = {
             alloys = 0.4
         }
     }
-
     ai_weight = {
-        weight = 1
+        weight = 0
     }
 }
 
 utility_component_template = {
     key = "SSC_DIMENSION_WARP_ARMOR_M"
-    size = medium
-    icon = "GFX_ship_part_dragon_armor"
+    component_set = "SSC_DIMENSION_WARP_ARMOR_SETS"
+    icon = "GFX_ship_part_armor_5"
     icon_frame = 1
-    power = 24
+    prerequisites = { "SSC_DIMENSION_WARP_ARMOR_TECH" }
+    size = medium
+    power = -24
     modifier = {
-        ship_armor_add = 1680
+        ship_armor_add = 980
         ship_armor_hardening_add = 0.14
     }
-
-    prerequisites = { "SSC_DIMENSION_WARP_ARMOR_TECH" }
-    component_set = "SSC_DIMENSION_WARP_ARMOR_COMP"
     resources = {
         category = ship_components
         cost = {
@@ -50,25 +47,23 @@ utility_component_template = {
             alloys = 0.67
         }
     }
-
     ai_weight = {
-        weight = 1
+        weight = 0
     }
 }
 
 utility_component_template = {
     key = "SSC_DIMENSION_WARP_ARMOR_L"
-    size = large
-    icon = "GFX_ship_part_dragon_armor"
+    component_set = "SSC_DIMENSION_WARP_ARMOR_SETS"
+    icon = "GFX_ship_part_armor_5"
     icon_frame = 1
-    power = 32
+    prerequisites = { "SSC_DIMENSION_WARP_ARMOR_TECH" }
+    size = large
+    power = -32
     modifier = {
-        ship_armor_add = 2880
+        ship_armor_add = 2080
         ship_armor_hardening_add = 0.21
     }
-
-    prerequisites = { "SSC_DIMENSION_WARP_ARMOR_TECH" }
-    component_set = "SSC_DIMENSION_WARP_ARMOR_COMP"
     resources = {
         category = ship_components
         cost = {
@@ -79,8 +74,7 @@ utility_component_template = {
             alloys = 0.88
         }
     }
-
     ai_weight = {
-        weight = 1
+        weight = 0
     }
 }

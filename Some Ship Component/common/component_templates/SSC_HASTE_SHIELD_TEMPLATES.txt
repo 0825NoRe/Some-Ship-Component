@@ -1,0 +1,90 @@
+utility_component_template = {
+    key = "SSC_HASTE_SHIELD_S"
+    component_set = "SSC_HASTE_SHIELD_SETS"
+    icon = "GFX_ship_part_shield_2"
+    icon_frame = 1
+
+    prerequisites = { "SSC_HASTE_SHIELD_TECH" }
+
+    size = small
+    power = -20
+
+    resources = {
+        category = ship_components
+        cost = {
+            exotic_gases = 0.32
+            alloys = 16
+        }
+    }
+
+    modifier = {
+        ship_shield_add = 80
+        ship_shield_regen_add_static = 0.67
+        ship_speed_mult = 0.1
+    }
+
+    ai_weight = {
+        weight = 0
+    }
+}
+
+utility_component_template = {
+    key = "SSC_HASTE_SHIELD_M"
+    component_set = "SSC_HASTE_SHIELD_SETS"
+    icon = "GFX_ship_part_shield_2"
+    icon_frame = 1
+
+    prerequisites = { "SSC_HASTE_SHIELD_TECH" }
+
+    size = medium
+    power = -40
+
+    resources = {
+        category = ship_components
+        cost = {
+            exotic_gases = 0.64
+            alloys = 32
+        }
+    }
+
+
+    modifier = {
+        ship_shield_add = 200
+        ship_shield_regen_add_static = 1.5
+        ship_speed_mult = 0.1
+    }
+
+    ai_weight = {
+        weight = 0
+    }
+}
+
+utility_component_template = {
+    key = "SSC_HASTE_SHIELD_L"
+    component_set = "SSC_HASTE_SHIELD_SETS"
+    icon = "GFX_ship_part_shield_2"
+    icon_frame = 1
+
+    prerequisites = { "SSC_HASTE_SHIELD_TECH" }
+
+    size = LARGE
+    power = -60
+
+    resources = {
+        category = ship_components
+        cost = {
+            exotic_gases = 1.28
+            alloys = 64
+        }
+    }
+
+    modifier = {
+        ship_shield_add = 500
+        ship_shield_regen_add_static = 3.50
+        ship_speed_mult = 0.1
+    }
+
+    ai_weight = {
+        weight = 0
+    }
+}
