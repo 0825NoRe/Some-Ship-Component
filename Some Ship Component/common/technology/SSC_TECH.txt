@@ -110,12 +110,57 @@ SSC_INFINITY_WEAPON_ENERGY_TECH = {
 
 #电弧屏障
 SSC_ARC_DEFENDER_TECH = {
-	cost = @Tier4Cost3 #
+	cost = @tier4cost3 #24000
 	area = physics #physics & society & engineering
 	tier = 4
 	category = {particles}
 	prerequisites = {
 		tech_arc_emitter_1
+	}
+	weight = 32
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#无线能源仓 LV
+SSC_WIRELESS_ENERGY_HATCH_LV_TECH = {
+	cost = @tier5cost1 #32000
+	area = physics #physics & society & engineering
+	tier = 5
+	category = {particles}
+	prerequisites = {
+		tech_zero_point_power
+	}
+	weight = 32
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#无线能源仓 MV
+SSC_WIRELESS_ENERGY_HATCH_MV_TECH = {
+	cost = @tier5cost3 #48000
+	area = physics #physics & society & engineering
+	tier = 5
+	category = {particles}
+	prerequisites = {
+		SSC_WIRELESS_ENERGY_HATCH_LV_TECH
+	}
+	weight = 32
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#无线能源仓 HV
+SSC_WIRELESS_ENERGY_HATCH_HV_TECH = {
+	cost = 96000
+	area = physics #physics & society & engineering
+	tier = 5
+	category = {particles}
+	prerequisites = {
+		SSC_WIRELESS_ENERGY_HATCH_MV_TECH
 	}
 	weight = 32
 	ai_weight = {

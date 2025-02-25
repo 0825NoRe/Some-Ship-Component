@@ -13,12 +13,12 @@ weapon_component_template = {
 
 	resources = {
 		category = ship_components
-		upkeep = {
-			alloys = 2.56
-		}
 		cost = {
 			alloys = 256
 			astral_threads = 1
+		}
+		upkeep = {
+			alloys = 2.56
 		}
 	}
 

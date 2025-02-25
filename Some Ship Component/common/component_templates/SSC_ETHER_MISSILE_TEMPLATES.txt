@@ -25,13 +25,13 @@ weapon_component_template = {
     damage = { min = 16 max = 66 }
     windup = { min = 0 max = 0 }
     total_fire_time = 66
-    range = 66
+    range = 96
     min_range = 16
 
     missile_speed = 66
     missile_evasion = 0.90 #闪避
     missile_health = 16
-    missile_retarget_range = 66 #重定向
+    missile_retarget_range = 96 #重定向
 
     accuracy = 0.96 #命中
     tracking = 0.36 #追踪
@@ -87,13 +87,13 @@ weapon_component_template = {
     damage = { min = 36 max = 66 }
     windup = { min = 0 max = 0 }
     total_fire_time = 66
-    range = 96
+    range = 116
     min_range = 16
 
     missile_speed = 66
     missile_evasion = 0.90 #闪避
     missile_health = 64
-    missile_retarget_range = 96 #重定向
+    missile_retarget_range = 116 #重定向
 
     accuracy = 0.96 #命中
     tracking = 0.36 #追踪

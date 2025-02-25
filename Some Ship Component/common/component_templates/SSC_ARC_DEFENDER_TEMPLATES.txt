@@ -1,0 +1,96 @@
+weapon_component_template = {
+	key = "SSC_ARC_DEFENDER_P"
+	component_set = "SSC_ARC_DEFENDER_SETS"
+	icon = "GFX_ship_part_point_defense_2"
+	icon_frame = 1
+
+	prerequisites = { "SSC_ARC_DEFENDER_TECH" }
+
+	type = point_defence
+	point_defence_targets = { "missile" "strike_craft" }
+
+	size = point_defence
+    power = -15
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 8
+		}
+		upkeep = {
+			energy = 0.08
+			alloys = 0.008
+		}
+	}
+
+	damage = { min = 1 max = 8 }
+	windup = { min = 0 max = 0 }
+	total_fire_time = 5
+	range = 40
+
+	accuracy = 1.00
+	tracking = 0.40
+
+	shield_penetration = 1
+	armor_penetration = 1
+
+	projectile_gfx = arc_emitter
+
+	tags = {
+		weapon_type_point_defense
+		weapon_type_energy
+	}
+	ai_tags = {
+		weapon_role_point_defense
+		screen
+	}
+}
+
+weapon_component_template = {
+	key = "SSC_ARC_DEFENDER_X"
+	component_set = "SSC_ARC_DEFENDER_SETS"
+	icon = "GFX_ship_part_point_defense_2"
+	icon_frame = 1
+
+	prerequisites = { "SSC_ARC_DEFENDER_TECH" }
+
+	type = point_defence
+	point_defence_targets = { "missile" "strike_craft" }
+
+	size = extra_large
+	power = -75
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 480
+		}
+		upkeep = {
+			energy = 8
+			alloys = 0.8
+		}
+	}
+
+	damage = { min = 1 max = 64 }
+	windup = { min = 0 max = 0 }
+	total_fire_time = 5
+	range = 60
+
+	accuracy = 1.00
+	tracking = 0.40
+
+	shield_penetration = 1
+	armor_penetration = 1
+
+	projectile_gfx = arc_emitter
+
+	tags = {
+		x_slot
+		weapon_type_point_defense
+		weapon_type_energy
+	}
+	ai_tags = {
+		weapon_role_point_defense
+		screen
+	}
+}
