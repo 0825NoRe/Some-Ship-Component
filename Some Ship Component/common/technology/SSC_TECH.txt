@@ -92,6 +92,7 @@ SSC_ETHER_MISSILE_TECH = {
 	}
 }
 
+#致死量
 SSC_INFINITY_WEAPON_ENERGY_TECH = {
 	cost = 1000000
 	area = physics #physics & society & engineering
@@ -106,6 +107,22 @@ SSC_INFINITY_WEAPON_ENERGY_TECH = {
 		weight = 0
 	}
 }
+
+#电弧屏障
+SSC_ARC_DEFENDER_TECH = {
+	cost = @Tier4Cost3 #
+	area = physics #physics & society & engineering
+	tier = 4
+	category = {particles}
+	prerequisites = {
+		tech_arc_emitter_1
+	}
+	weight = 32
+	ai_weight = {
+		weight = 0
+	}
+}
+
 # TECHNOLOGY
 
 # This example probably does not show all features! So beware!
