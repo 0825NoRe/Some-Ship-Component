@@ -343,3 +343,351 @@ utility_component_template = {
 		weight = 0
 	}
 }
+
+
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_CORVETTE"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 512
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 64
+		}
+		upkeep = {
+			energy = 6.4
+			alloys = 0.04
+		}
+	}
+
+	size_restriction = {
+		corvette
+		frigate
+		colonizer
+		lithoid_colonizer
+		sponsored_colonizer
+		guided_sapience_colonizer
+		colony_vessel
+		constructor
+		engineer_vessel
+		science
+		explorer_vessel
+		transport
+		crisis_corvette
+		offspring_corvette
+		nanite_swarmer
+		gravity_snare
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_DESTROYER"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 1024
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 128
+		}
+		upkeep = {
+			energy = 12.8
+			alloys = 0.08
+		}
+	}
+
+	size_restriction = {
+		destroyer
+		crisis_destroyer
+		offspring_destroyer
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_CRUISER"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 2048
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 256
+		}
+		upkeep = {
+			energy = 25.6
+			alloys = 0.16
+		}
+	}
+
+	size_restriction = {
+		cruiser
+		crisis_cruiser
+		cosmo_crisis_destroyer
+		offspring_cruiser
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_BATTLESHIP"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 4096
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 512
+		}
+		upkeep = {
+			energy = 51.2
+			alloys = 0.32
+		}
+	}
+
+	size_restriction = {
+		battleship
+		offspring_battleship
+		nanite_interdictor
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_TITAN"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 8192
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 1024
+		}
+		upkeep = {
+			energy = 102.4
+			alloys = 0.64
+		}
+	}
+
+	size_restriction = {
+		titan
+		payback_warship
+		cosmo_crisis_battlecruiser
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_COLOSSUS"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 16384
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 2048
+		}
+		upkeep = {
+			energy = 204.8
+			alloys = 1.28
+		}
+	}
+
+	size_restriction = {
+		colossus
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_JUGGERNAUT"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 32768
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 4096
+		}
+		upkeep = {
+			energy = 409.6
+			alloys = 2.56
+		}
+	}
+
+	size_restriction = {
+		juggernaut
+		star_eater
+		synth_queen_titan
+		cosmo_crisis_titan
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_PLATFORM"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = large
+	power = 1536
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 192
+		}
+		upkeep = {
+			energy = 19.2
+			alloys = 0.12
+		}
+	}
+
+	size_restriction = {
+		military_station_small
+		military_station_medium
+		military_station_large
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_ION_CANNON"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = small
+	power = 3072
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 384
+		}
+		upkeep = {
+			energy = 38.4
+			alloys = 0.24
+		}
+	}
+
+	size_restriction = {
+		ion_cannon
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SSC_WIRELESS_ENERGY_HATCH_MV_STARBASE"
+	component_set = "power_core"
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+
+	prerequisites = { "SSC_WIRELESS_ENERGY_HATCH_MV_TECH" }
+
+	size = large
+	power = 16384
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 2048
+		}
+		upkeep = {
+			energy = 204.8
+			alloys = 1.28
+		}
+	}
+
+	size_restriction = {
+		starbase_outpost
+		starbase_starport
+		starbase_starhold
+		starbase_starfortress
+		starbase_citadel
+		orbital_ring_tier_1
+		orbital_ring_tier_2
+		orbital_ring_tier_3
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
