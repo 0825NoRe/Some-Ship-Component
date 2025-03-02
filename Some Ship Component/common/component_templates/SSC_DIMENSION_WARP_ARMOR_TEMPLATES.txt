@@ -8,6 +8,8 @@ utility_component_template = {
     power = -16
     modifier = {
         ship_armor_add = 380
+    }
+    ship_modifier = {
         ship_armor_hardening_add = 0.07
     }
     resources = {
@@ -35,6 +37,8 @@ utility_component_template = {
     power = -24
     modifier = {
         ship_armor_add = 980
+    }
+    ship_modifier = {
         ship_armor_hardening_add = 0.14
     }
     resources = {
@@ -62,6 +66,8 @@ utility_component_template = {
     power = -32
     modifier = {
         ship_armor_add = 2080
+    }
+    ship_modifier = {
         ship_armor_hardening_add = 0.21
     }
     resources = {
